@@ -21,5 +21,29 @@ print('-----')
 
 #Upside Down Triange
 for row in range(userinput):
+    for col in range(userinput-row):
+        print('x', end='')
+    print()
+print('-----')
+
+
+#The Ramp
+for row in range(userinput):
+    for col in range(userinput-(row+1)): 
+        print(' ', end='')
+    for col in range(row +1):
+        print('x', end='')
+    print()
+print('-----')
     
-    
+
+# Wedge
+for row in range(userinput):
+    for col in range(row):
+        print(' ', end='')
+    for col in range(userinput - row):
+        print('x', end='')
+    print()
+print('-----')
+
+
