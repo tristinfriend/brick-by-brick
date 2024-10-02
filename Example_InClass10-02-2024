@@ -8,3 +8,35 @@ for i in range(101): #Waterfall style of statement changes
     else:
         print(i) 
 
+
+numList = [3,9,10] 
+
+print(numList[2]) 
+
+stringList = ["Hello", "World"] 
+
+mixedList = ("Hello", 100) 
+
+listofLists = ([2,3,4],[7,10,4],[100,1000,10000])
+
+print(listofLists[0][2])
+
+s = "Hello"
+print(s[1])
+
+for ele in numList: 
+    print(ele)
+
+
+
+newList = [7,9,10]
+
+newList[0] = 4
+
+newList.append(12)
+
+print(newList)
+
+emptyList = []
+
+print(newList[6]) # No index 6, this crashes
