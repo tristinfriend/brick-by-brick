@@ -11,10 +11,15 @@ Professor Troy Shotter
 userinput = int(input('Enter a number'))
 #Task 1 ^
 
-for row in range(userinput):
+#Standard Triangle
+for row in range(userinput): #Every single shape should start with this line
     for col in range(row+1):
         print('x', end='')
     print()
+print('-----')
 
 
+#Upside Down Triange
+for row in range(userinput):
+    
     
