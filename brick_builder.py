@@ -47,3 +47,12 @@ for row in range(userinput):
 print('-----')
 
 
+#Empty Square
+for row in range(userinput): 
+    for col in range(userinput):
+        if(row < 1 or row > userinput - 2 or col < 1 or col > userinput -2): 
+            print('x', end='')
+        else:
+            print(' ', end='')
+    print()
+print('-----')
