@@ -47,6 +47,11 @@ for row in range(userinput):
 print('-----')
 
 
+
+
+
+
+
 #Empty Square
 for row in range(userinput): 
     for col in range(userinput):
