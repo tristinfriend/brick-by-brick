@@ -47,9 +47,14 @@ for row in range(userinput):
 print('-----')
 
 
-
-
-
+#The Pyramid
+for row in range(userinput):
+    for col in range (userinput - (row +1)): 
+        print(' ', end='')
+    for col in range((row * 2) + 1):
+        print('x', end='')
+    print()
+print('-----')
 
 
 #Empty Square
