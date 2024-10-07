@@ -82,4 +82,14 @@ for row in range(userinput):
             print('x', end='')
     print()
 for row in range(userinput -1): 
-    
+    if (row == userinput -2):
+        for col in range((userinput * 2) -1):
+            print ('x', end='')
+    else:
+        for col in range(row + 2):
+            print('x', end='')
+        for col in range(userinput-(row * 2)): 
+            print(' ', end='')
+        for col in range(row + 2):
+            print('x', end='')
+    print()
