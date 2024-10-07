@@ -66,3 +66,20 @@ for row in range(userinput):
             print(' ', end='')
     print()
 print('-----')
+
+
+#Negative Diamond
+for row in range(userinput):
+    if (row ==0):
+        for col in range((userinput * 2) -1):
+            print ('x', end='')
+    else:
+        for col in range(userinput - row):
+            print('x', end='')
+        for col in range((row * 2)-1): 
+            print(' ', end='')
+        for col in range(userinput - row):
+            print('x', end='')
+    print()
+for row in range(userinput -1): 
+    
